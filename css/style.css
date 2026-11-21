@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: snow;
+    color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    font-family: "Cascadia Mono";
+}
+.auth {
+    width: 100%;
+    max-width: 400px;
+}
+.login {
+    background-color: white;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.Nhap {
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.Nhap label {
+    
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+}
+.Nhap input {
+    display: block;
+    padding: 11px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.btn_submit {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+.dangki {
+   margin-top: 20px;
+}
+.dangki a:hover {
+    text-decoration: underline;
+}
+.dangnhap {
+   margin-top: 20px;
+}
+.dangnhap a:hover {
+    text-decoration: underline;
+}
